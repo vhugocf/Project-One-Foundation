@@ -17,7 +17,7 @@
 <body>
 
     <header>
-        <div class="menu toogler">
+        <div class="menu-toggler">
             <div class="bar half start"></div>
             <div class="bar"></div>
             <div class="bar half end"></div>
@@ -26,14 +26,25 @@
             <ul class="nav-list">
                 <li>
                     <a href="index.html" class="nav-link">Principal</a>
-                    <a href="#" class="nav-link">Quem sou eu..</a>
-                    <a href="#" class="nav-link">Meus Interesses</a>
-                    <a href="#" class="nav-link">(obviamente) meu portifólio</a>
-                    <a href="#" class="nav-link">Minha Experiência</a>
-                    <a href="#" class="nav-link">Keep in touch!</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">Quem sou eu..</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Meus Interesses</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Meu (árduo) portfólio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Minha Experiência</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">{Keep in touch with me}</a>
                 </li>
             </ul>
         </nav>
+
         <div class="landing-text">
             <h1>Victor Hugo C Flores</h1>
             <h5>Front End Developer || AR/VR Enthusiast </h5>
@@ -89,21 +100,21 @@
                         <i class="fas fa-code-group"></i>
                     </div>
                     <h1>Web Developer</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Repudiandae rem et veniam incidunt cumque, praesentium 
-                        voluptates alias quo autem veritatis doloribus dolore quidem 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repudiandae rem et veniam incidunt cumque, praesentium
+                        voluptates alias quo autem veritatis doloribus dolore quidem
                         necessitatibus temporibus hic iusto molestiae ut recusandae!</p>
                 </div>
                 <div class="skill">
-                        <div class="icon-container">
-                            <i class="fas fa-chart-group"></i>
-                        </div>
-                        <h1>Realidade Aumentada & Realidade Virtual</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Repudiandae rem et veniam incidunt cumque, praesentium 
-                            voluptates alias quo autem veritatis doloribus dolore quidem 
-                            necessitatibus temporibus hic iusto molestiae ut recusandae!</p>
+                    <div class="icon-container">
+                        <i class="fas fa-chart-group"></i>
                     </div>
+                    <h1>Realidade Aumentada & Realidade Virtual</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repudiandae rem et veniam incidunt cumque, praesentium
+                        voluptates alias quo autem veritatis doloribus dolore quidem
+                        necessitatibus temporibus hic iusto molestiae ut recusandae!</p>
+                </div>
             </div>
         </div>
     </section>
@@ -120,13 +131,13 @@
                 <div class="portfolio-img">
                     <img src="images/portitem1.jpeg" alt="">
                 </div>
-    
+
                 <div class="portfolio-description">
                     <h6>Desenvolvimento Web</h6>
                     <h1> Websites </h1>
-    
+
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit
-                       Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit
                     </p>
                     <a href="#" class="cta">Veja Detalhes</a>
                 </div>
@@ -137,12 +148,10 @@
                     <h6>Realidade Aumentada</h6>
                     <h1>Realidade Virtual</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit
-                       Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit
                     </p>
                     <a href="#" class="cta">Veja os Detalhes</a>
                 </div>
-
-                
             </div>
         </div>
     </section>
@@ -154,36 +163,64 @@
                 <h1>Experiência de Trabalho</h1>
                 <h6>Anterior e Atual</h6>
             </div>
+
             <div class="timeline">
                 <ul>
                     <li class="date" data-date="2017 - Atual">
                         <h1>Atelie Celebrite</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, 
-                            asperiores! Odio nesciunt amet reiciendis aspernatur in non accusantium, 
-                            deserunt velit dolorem mollitia perferendis? Explicabo modi, error odio 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+                            asperiores! Odio nesciunt amet reiciendis aspernatur in non accusantium,
+                            deserunt velit dolorem mollitia perferendis? Explicabo modi, error odio
                             ligendi labore adipisci.
                         </p>
-
-
                     </li>
 
-
-
-
-
+                    <li class="date" data-date="2010 - 2015">
+                        <h1>Espaço Feminino Celebridade</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+                            asperiores! Odio nesciunt amet reiciendis aspernatur in non accusantium,
+                            deserunt velit dolorem mollitia perferendis? Explicabo modi, error odio
+                            ligendi labore adipisci.
+                        </p>
+                    </li>
                 </ul>
-
-
-
-
             </div>
-        
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Meu Contato</h1>
+                <h6>Quer trabalhar comigo?</h6>
+            </div>
+
+            <form action="">
+                <label for="name">Nome: </label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome..." size="30" required>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" size="30" required>
+
+                <label for="service"> Serviços: </label>
+                <select name="service" id="service">
+                    <option value="">Desenvolvimento Web</option>
+                    <option value="">Desenvolvimento de Realidade Aumentada</option>
+                    <option value="">Desenvolvimento de Realidade Virtual</option>
+                </select>
+
+                <label for="subject"> Assunto: </label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </section>
 
 
+    <footer class="copyright">
 
-
-
+        <div class="up" id="up"></div>
+        <i class="fas fa-chevron-up"></i>
+        <p>&copy;2019 - Victor Hugo C Flores</p>
+    </footer>
 
 
 

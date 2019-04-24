@@ -74,7 +74,7 @@ img{
     .nav-link{
 
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 4rem;
+        font-size: 2rem;
         padding: 1rem;
     }
 
@@ -117,7 +117,7 @@ img{
     }
 
     .bar.half{
-        width: 75%;
+        width: 50%;
     }
 
     .bar.start{
@@ -126,7 +126,7 @@ img{
     }
 
     .open .bar.start{
-        transform: rotate(-450deg) translateX(-.8rem )
+        transform: rotate(-450deg) translateX(-.8rem)
     }
 
 

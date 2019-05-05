@@ -36,7 +36,70 @@ img{
 
 
 /*Start reusable*/
+.container{
+    width: 90%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto; 
+    position: relative;
+    
+}
+
+.section-heading{
+    text-align: center;
+    margin-top: 10rem;
+
+}
+
+.section-heading h1{
+    font-size: 3.5rem;
+    color: rgba(255, 255, 255, .3);
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+    .section-heading h1::before,
+    .section-heading h1::after{
+        content: '';
+        position: absolute;
+        bottom: -.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(255,255,255,0.75);
+    }
+
+    .section-heading h1::before{
+        width: 10rem;
+        height: 3px;
+        border-radius: .8rem;
+    }    
+
+    .section-heading h1::after{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 100%;
+        bottom: -1rem;
+        
+    }
+
+
+
+.section-heading h5{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+
+
+
+
 /*End reusable*/
+
+
+
+
 
 
 
@@ -225,16 +288,39 @@ img{
 .social-media i{
     font-size: 5rem;
     transition: color 650ms;
+}
+
+.fa-linkedin:hover{
+    color: #0e76a8;
+}
+
+.fa-twitter-square:hover{
+    color: #00acee;
+}
+
+.fa-github:hover{
+    color: #f80b0b;
+}
+
+/*End about*/
 
 
+
+
+
+/*Start services*/
+
+.my-skills{
+    margin-top: 10rem;
 }
 
 
 
-/*End about*/
-
-/*Start services*/
 /*End services*/
+
+
+
+
 
 /*Start portfolio*/
 /*End services*/

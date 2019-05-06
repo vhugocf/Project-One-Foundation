@@ -18,6 +18,14 @@ body{
     background-size: cover;
 }
 
+.section{
+    
+    padding: 6rem 0;
+
+}
+
+
+
 a{
     text-decoration: none;
     color: #eee;
@@ -47,6 +55,7 @@ img{
 
 .section-heading{
     text-align: center;
+    margin-bottom: 10rem;
     margin-top: 10rem;
 
 }
@@ -84,13 +93,15 @@ img{
 
     }
 
-
-
 .section-heading h5{
     font-size: 1.6rem;
     font-weight: 300;
 }
 
+.has-margin-right{
+    margin-right: 5rem;
+    
+}
 
 
 
@@ -174,7 +185,6 @@ img{
     .menu-toggler.open{
         transform: rotate(-45deg);
     }
-
 
 
     .bar{
@@ -310,7 +320,7 @@ img{
 
 /*Start services*/
 
-.my-skill{
+.my-skills{
     margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -334,13 +344,93 @@ img{
 
 }
 
+.icon-container{
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #686fcff5;
+    background-color: #0817eee7;
+    margin-bottom: 2rem;
+    display: flex;
+    transform: rotate(45deg);
+}
+
+.icon-container i{
+    color: #686fcff5;
+    font-size: 5rem;
+    margin: auto;
+    transform: rotate(-45deg);
+}
 /*End services*/
 
 
 
 
 
+
+
 /*Start portfolio*/
+
+.portfolio .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.portfolio-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.portfolio-item:last-child{
+    margin-bottom:0;
+
+}
+
+.portfolio-img{
+    flex: 1;
+    margin-left: 5rem;
+}
+
+.porfolio-description{
+flex: 1;
+}
+
+.porfolio-description h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem,
+
+}
+.porfolio-description h5{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+
+}
+
+.portfolio-description .cta{
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #0a46e9;
+    transition: color 650ms;
+
+}
+
+
+.porfolio-description .cta:hover{
+    
+    color: #2f67cd;
+}
+
+
+
 /*End services*/
 
 /*Start timeline*/
@@ -350,6 +440,8 @@ img{
 /*End contact*/
 
 /*Start footer*/
+
+
 /*End footer*/
 
 /*Start animations*/

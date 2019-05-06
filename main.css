@@ -4,10 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 html{
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #eee;
 }
 
@@ -44,7 +44,7 @@ img{
 
 
 /*Start reusable*/
-.container{
+.container{ 
     width: 90%;
     max-width: 120rem;
     height: 100%;
@@ -55,8 +55,10 @@ img{
 
 .section-heading{
     text-align: center;
-    margin-bottom: 10rem;
+    
     margin-top: 10rem;
+
+    /*margin-bottom: 10rem;*/
 
 }
 
@@ -78,25 +80,26 @@ img{
         transform: translateX(-50%);
         background-color: rgba(255,255,255,0.75);
     }
-
     .section-heading h1::before{
         width: 10rem;
         height: 3px;
         border-radius: .8rem;
     }    
-
     .section-heading h1::after{
         width: 1.5rem;
         height: 1.5rem;
         border-radius: 100%;
         bottom: -1rem;
-
     }
+
+
 
 .section-heading h5{
     font-size: 1.6rem;
     font-weight: 300;
 }
+
+
 
 .has-margin-right{
     margin-right: 5rem;
@@ -150,7 +153,7 @@ img{
 
     .nav-link{
 
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Russo One', Helvetica, sans-serif;
         font-size: 2rem;
         padding: 1rem;
     }
@@ -206,7 +209,7 @@ img{
 
     .open .bar.start{
 
-        transform: rotate(-450deg) translateX(.8rem)
+        transform: rotate(-450deg) translateX(.8rem);
     }
 
     .bar.end{
@@ -215,10 +218,14 @@ img{
         transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
     }
 
-
     .open .bar.end{
-        transform: rotate(-450deg) translateX(-.8rem)
+        transform: rotate(-450deg) translateX(-.8rem);
     }
+
+
+
+
+     
 
     .landing-text{
         position: absolute;
@@ -233,7 +240,6 @@ img{
     .landing-text h1{
         font-size: 10rem;
         font-family: 'Russo One', sans-serif ;
-
         background: linear-gradient(to top, #686fcff5, #0817eee7);
         background-clip: content-box;
         -webkit-background-clip: text;
@@ -288,8 +294,8 @@ img{
 
 .about-details{
     flex: 1;
-
 }
+
 
 .social-media{
     margin-top: 5rem;
@@ -370,20 +376,22 @@ img{
 
 /*Start portfolio*/
 
-.portfolio .item{
+.portfolio-item{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5rem;
 
 }
 
+/*
 
 .portfolio-item{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
-}
+}   */
 
 .portfolio-item:last-child{
     margin-bottom:0;
@@ -396,20 +404,24 @@ img{
 }
 
 .porfolio-description{
-flex: 1;
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10rem;
+
 }
 
 .porfolio-description h1{
     font-size: 3rem;
     font-weight: 300;
     margin: 1rem,
+    
 
 }
 .porfolio-description h5{
-    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
     opacity: 0.3;
+ 
 
 }
 

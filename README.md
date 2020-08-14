@@ -1,7 +1,6 @@
-# project-one
-Arquivos que fazem parte do meu primeiro projeto armazenado no github.
+# project-one-foundation
 
-ao longo das semanas este repositório estará sendo atualizados
+Arquivos que fazem parte do meu primeiro projeto armazenado no github.
 
 
 

@@ -1,5 +1,6 @@
 # Project-One ( ) => Foundation of my Developer Career
 
+Minha História até aqui:
 
 Tenho formação superior em sistemas de informação. Porém antes disso eu já nutria uma paixão pela computação que começou na adolescência, onde estudei nos tradicionais cursos de “Informática” da época. Logo depois, trabalhei em algumas empresas que vão desde a prestação de serviços até o comércio varejista. Entretanto após certo tempo, compreendi que somente pela educação em tecnologia eu conseguiria alcançar maiores objetivos na minha vida. Assim me preparei para ingressar no ensino superior através de alguma bolsa de estudo. É muito bom lembrar que esta meta foi atingida com êxito!
 
